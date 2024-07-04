@@ -35,3 +35,38 @@ table.td{
   border: 1px solid black;
   text-align: justify;
 }
+
+body{
+  background-color: #0f0f0f;
+  color: #cbcbcb;
+}
+
+.bg-gray{
+  background-color: #262626;
+}
+
+.d-inline  {
+  display:  inline !important;
+}
+
+.d-flex{
+  display: flex !important;
+}
+
+.d-inline-flex{
+  display: inline-flex !important;
+}
+
+.users-list{
+  min-width: 25%;
+  width: 25%;
+  display: inline-flex;
+  margin : 1.5em;
+  min-height: 200px;
+}
+
+.w-100 {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
